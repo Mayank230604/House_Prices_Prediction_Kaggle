@@ -147,7 +147,7 @@ pip install -r requirements.txt
 
 * `train.csv`
 * `test.csv`
-* `sample_submission.csv`(keep it for reference)
+* `sample_submission.csv`is optional — provided by Kaggle just as a reference for submission format. Our script already generates submission files in the correct format.
 
 5. Run the training script:
 
