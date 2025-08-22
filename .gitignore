@@ -1,0 +1,16 @@
+# data
+data/*.csv
+!data/sample_submission.csv
+!data/data_description.txt
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# outputs/models
+models/
+outputs/
+submission.csv
