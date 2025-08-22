@@ -1,4 +1,3 @@
-# src/train_house_prices.py
 import os
 import json
 from datetime import datetime
