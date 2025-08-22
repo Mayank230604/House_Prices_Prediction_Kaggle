@@ -74,9 +74,9 @@ Each model is evaluated with **5-Fold Cross-Validation** using **RMSE** as the m
 | Ridge                | 0.1485 ± 0.0407      |
 | Lasso                | 0.1443 ± 0.0424      |
 | Random Forest        | 0.1452 ± 0.0191      |
-| HistGradientBoosting | 0.1355 ± 0.0170      |
+| HistGBR              | 0.1355 ± 0.0170      |
 
-✅ **Best base model:** HistGradientBoosting
+✅ **Best base model:** HistGradientBoostingRegression
 
 **Hyperparameter Tuning (RandomizedSearchCV):**
 
