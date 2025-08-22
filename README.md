@@ -36,7 +36,6 @@ house_prices_kaggle/
 ### 1️⃣ Data Loading & Preprocessing
 
 * Handle missing values:
-
   * Numeric → median
   * Categorical → most frequent
 * Scale numeric features
