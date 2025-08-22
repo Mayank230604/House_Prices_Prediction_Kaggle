@@ -65,7 +65,7 @@ Each model is evaluated with **5-Fold Cross-Validation** using **RMSE** as the m
 
 ---
 
-## 📊 Example Results
+## 📊 Results
 
 **Cross-validation RMSE (5-fold):**
 
