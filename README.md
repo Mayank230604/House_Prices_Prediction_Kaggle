@@ -1,8 +1,3 @@
-Got it 👍 — the formatting got broken due to misplaced backticks. I’ll fix your **README.md** so the code blocks and sections render correctly on GitHub.
-
-Here’s the **clean version**:
-
-```markdown
 # 🏡 House Prices Prediction — Kaggle Competition
 
 This project tackles the **Kaggle House Prices: Advanced Regression Techniques** competition.  
