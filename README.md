@@ -9,7 +9,7 @@
 ![Kaggle](https://img.shields.io/badge/Kaggle-Competition-20BEFF?logo=kaggle&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-This project tackles the **Kaggle House Prices: Advanced Regression Techniques** competition.
+This project tackles the **Kaggle House Prices: Advanced Regression Techniques** competition.  
 The goal is to predict house prices using various regression models and modern ML workflows.
 
 It demonstrates:
@@ -26,17 +26,19 @@ It demonstrates:
 ## 📂 Project Structure
 
 ```
-house_prices_kaggle/
-│── data/                  # train.csv, test.csv, sample_submission.csv
+
+house\_prices\_kaggle/
+│── data/                  # train.csv, test.csv, sample\_submission.csv
 │── models/                # Saved trained pipelines + metadata
 │── outputs/               # Submission CSVs for Kaggle
 │── figures/               # EDA and feature importance plots
 │── src/
-│   └── train_house_prices.py   # Main training & evaluation script
+│   └── train\_house\_prices.py   # Main training & evaluation script
 │── requirements.txt
 │── README.md
 │── .gitignore
-```
+
+````
 
 ---
 
@@ -78,14 +80,14 @@ Each model is evaluated with **5-Fold Cross-Validation** using **RMSE** as the m
 
 **Cross-validation RMSE (5-fold):**
 
-| Model                | CV RMSE (mean ± std) |
-| -------------------- | -------------------- |
-| Ridge                | 0.1485 ± 0.0407      |
-| Lasso                | 0.1443 ± 0.0424      |
-| Random Forest        | 0.1452 ± 0.0191      |
-| HistGBR              | 0.1355 ± 0.0170      |
+| Model         | CV RMSE (mean ± std) |
+| ------------- | -------------------- |
+| Ridge         | 0.1485 ± 0.0407      |
+| Lasso         | 0.1443 ± 0.0424      |
+| Random Forest | 0.1452 ± 0.0191      |
+| HistGBR       | 0.1355 ± 0.0170      |
 
-✅ **Best base model:** HistGradientBoostingRegression
+✅ **Best base model:** HistGradientBoostingRegressor
 
 **Hyperparameter Tuning (RandomizedSearchCV):**
 
@@ -100,13 +102,13 @@ Best params:
 }
 
 Best CV RMSE: 0.1319
-```
+````
 
 ---
 
 ## 📈 Results & Figures
 
-Figures are saved in the `figures/` directory:
+Figures are saved in the `figures/` directory *(auto-generated after running the script)*:
 
 * Correlation heatmap of key features
 * Distribution plots of SalePrice (log-transformed vs original)
@@ -165,4 +167,6 @@ python src/train_house_prices.py
 
 [House Prices: Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
+---
 
+🔖 **Status:** Completed | 📅 Last Updated: Aug 2025
