@@ -64,12 +64,12 @@ house\_prices\_kaggle/
 
 **Cross-validation RMSE (5-fold):**
 
-
+```
 Ridge | CV RMSE: 0.1485 (+/- 0.0407)
 Lasso | CV RMSE: 0.1443 (+/- 0.0424)
 RandomForest | CV RMSE: 0.1452 (+/- 0.0191)
 HistGBR | CV RMSE: 0.1355 (+/- 0.0170)
-
+```
 
 
 ✅ **Best base model by CV:** HistGBR  
