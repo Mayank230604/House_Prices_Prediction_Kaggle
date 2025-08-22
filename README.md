@@ -98,7 +98,7 @@ HistGBR with params:
    ```bash
    git clone https://github.com/Mayank230604/House_Prices_Prediction_Kaggle.git
    cd House_Prices_Prediction_Kaggle
-````
+   ````
 
 2. Install dependencies:
 
