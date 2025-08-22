@@ -1,3 +1,8 @@
+Got it 👍 — the formatting got broken due to misplaced backticks. I’ll fix your **README.md** so the code blocks and sections render correctly on GitHub.
+
+Here’s the **clean version**:
+
+```markdown
 # 🏡 House Prices Prediction — Kaggle Competition
 
 This project tackles the **Kaggle House Prices: Advanced Regression Techniques** competition.  
@@ -62,7 +67,9 @@ house\_prices\_kaggle/
 
 ## 📊 Example Results
 
-Cross-validation RMSE (5-fold):
+**Cross-validation RMSE (5-fold):**
+```
+
 ```
    Ridge | CV RMSE: 0.1485 (+/- 0.0407)
    Lasso | CV RMSE: 0.1443 (+/- 0.0424)
@@ -73,7 +80,7 @@ HistGBR | CV RMSE: 0.1355 (+/- 0.0170)
 
 ```
 
-Best Model after tuning:
+**Best Model after tuning:**
 ```
 
 HistGBR with params:
@@ -95,7 +102,7 @@ HistGBR with params:
    ```bash
    git clone https://github.com/Mayank230604/House_Prices_Prediction_Kaggle.git
    cd House_Prices_Prediction_Kaggle
-   ````
+````
 
 2. Install dependencies:
 
