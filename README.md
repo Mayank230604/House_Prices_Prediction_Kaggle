@@ -63,31 +63,45 @@ house\_prices\_kaggle/
 ## 📊 Example Results
 
 **Cross-validation RMSE (5-fold):**
-```
 
 ```
    Ridge | CV RMSE: 0.1485 (+/- 0.0407)
    Lasso | CV RMSE: 0.1443 (+/- 0.0424)
-```
-
-RandomForest | CV RMSE: 0.1452 (+/- 0.0191)
-HistGBR | CV RMSE: 0.1355 (+/- 0.0170)
+   RandomForest | CV RMSE: 0.1452 (+/- 0.0191)
+   HistGBR | CV RMSE: 0.1355 (+/- 0.0170)
 
 ```
 
-**Best Model after tuning:**
+✅ **Best base model by CV:** HistGBR  
+
+**Hyperparameter Tuning (RandomizedSearchCV):**
 ```
 
-HistGBR with params:
+Best params:
 {
-'model\_\_learning\_rate': 0.1,
-'model\_\_max\_depth': 8,
-'model\_\_max\_leaf\_nodes': 15,
 'model\_\_min\_samples\_leaf': 20,
+'model\_\_max\_leaf\_nodes': 15,
+'model\_\_max\_depth': 8,
+'model\_\_learning\_rate': 0.1,
 'model\_\_l2\_regularization': 0.1
 }
 
+Best CV RMSE: 0.1319
+
 ````
+
+---
+
+## 📈 Results & Figures
+
+Figures are saved in the `figures/` directory:
+
+- Correlation heatmap of key features  
+- Distribution plots of SalePrice (log-transformed vs. original)  
+- Feature importance (top 20 predictors) from the best model  
+- CV performance comparison across models  
+
+These visualizations provide insights into **feature relevance**, **data quality**, and **model behavior**, making the workflow more transparent.
 
 ---
 
@@ -137,6 +151,4 @@ HistGBR with params:
 ## 🏆 Kaggle Competition Link
 
 [House Prices: Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
-
----
 
