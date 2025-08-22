@@ -147,7 +147,7 @@ pip install -r requirements.txt
 
 * `train.csv`
 * `test.csv`
-* `sample_submission.csv`
+* `sample_submission.csv`(keep it for reference)
 
 5. Run the training script:
 
