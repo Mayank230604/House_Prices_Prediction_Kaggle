@@ -126,27 +126,36 @@ These visualizations provide insights into **feature relevance**, **data quality
 ```bash
 git clone https://github.com/Mayank230604/House_Prices_Prediction_Kaggle.git
 cd House_Prices_Prediction_Kaggle
+````
+
+2. (Optional but recommended) Create a virtual environment:
+
+```bash
+# Using venv
+python -m venv .venv
+source .venv/bin/activate   # On Linux/Mac
+.venv\Scripts\activate      # On Windows
 ```
 
-2. Install dependencies:
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Place Kaggle competition data inside `data/`:
+4. Place Kaggle competition data inside `data/`:
 
 * `train.csv`
 * `test.csv`
 * `sample_submission.csv`
 
-4. Run the training script:
+5. Run the training script:
 
 ```bash
 python src/train_house_prices.py
 ```
 
-5. Check results:
+6. Check results:
 
 * `models/` → Saved best pipeline + metadata
 * `outputs/` → Submission CSV for Kaggle
@@ -167,6 +176,3 @@ python src/train_house_prices.py
 
 [House Prices: Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
----
-
-🔖 **Status:** Completed | 📅 Last Updated: Aug 2025
