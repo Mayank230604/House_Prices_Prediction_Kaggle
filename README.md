@@ -63,9 +63,6 @@ house\_prices\_kaggle/
 ## 📊 Example Results
 
 Cross-validation RMSE (5-fold):
-
-```
-
 ```
    Ridge | CV RMSE: 0.1485 (+/- 0.0407)
    Lasso | CV RMSE: 0.1443 (+/- 0.0424)
