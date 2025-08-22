@@ -1,13 +1,13 @@
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-666666?style=flat-square&logo=lightgbm&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=plotly&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-
 # 🏡 House Prices Prediction — Kaggle Competition
+
+[![Python](https://img.shields.io/badge/Python-3.12.10-blue?logo=python&logoColor=white)](https://www.python.org/)
+![NumPy](https://img.shields.io/badge/NumPy-1.24-lightgrey?logo=numpy)
+![Pandas](https://img.shields.io/badge/Pandas-2.0-darkblue?logo=pandas)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange.svg)
+![LightGBM](https://img.shields.io/badge/LightGBM-Boosting-yellowgreen.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-informational.svg)
+![Kaggle](https://img.shields.io/badge/Kaggle-Competition-20BEFF?logo=kaggle&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 This project tackles the **Kaggle House Prices: Advanced Regression Techniques** competition.
 The goal is to predict house prices using various regression models and modern ML workflows.
